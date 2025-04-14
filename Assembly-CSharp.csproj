@@ -59,13 +59,26 @@
     <UnityVersion>2022.3.59f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\Pojesh\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\Pojesh\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.59f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.59f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CEO\CEOGameController.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\Scenario.cs" />
+    <Compile Include="Assets\Diplomat\DIPCardController.cs" />
+    <Compile Include="Assets\Diplomat\DIPGameOverPanel.cs" />
     <Compile Include="Assets\MyAssets\Scripts\MainMenuController.cs" />
-    <Compile Include="Assets\MyAssets\Scripts\RoleSelectorController.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\EscToMainMenu.cs" />
+    <Compile Include="Assets\Scenes\SceneSelector\PM_Scene.cs" />
+    <Compile Include="Assets\PrimeMinister\CardController.cs" />
+    <Compile Include="Assets\Scenes\SceneSelector\CEO_Scene.cs" />
+    <Compile Include="Assets\PrimeMinister\GameController.cs" />
+    <Compile Include="Assets\CEO\CEOCardController.cs" />
+    <Compile Include="Assets\Scenes\SceneSelector\DIP_Scene.cs" />
+    <Compile Include="Assets\CEO\CEOGameOverPanel.cs" />
+    <Compile Include="Assets\Diplomat\DIPGameController.cs" />
+    <Compile Include="Assets\PrimeMinister\GameOverPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
