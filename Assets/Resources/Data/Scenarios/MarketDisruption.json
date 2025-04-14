@@ -1,0 +1,69 @@
+{
+    "scenarioName": "MARKET DISRUPTION",
+    "description": "A new technology is disrupting your industry.",
+    "subscenarios": [
+      {
+        "id": 1,
+        "statement": "A startup has introduced a revolutionary technology that threatens your core business model.",
+        "leftAction": "Invest heavily in R&D to develop competing technology",
+        "rightAction": "Attempt to acquire the startup",
+        "metricChanges": {
+          "left": {
+            "PROFIT": -15,
+            "EMPLOYEESATISFACTION": 5,
+            "MARKETSHARE": -5,
+            "BOARDAPPROVAL": -10
+          },
+          "right": {
+            "PROFIT": -20,
+            "EMPLOYEESATISFACTION": -5,
+            "MARKETSHARE": 15,
+            "BOARDAPPROVAL": 10
+          }
+        },
+        "relatedPrinciple": "Blue Ocean Strategy"
+      },
+      {
+        "id": 2,
+        "statement": "Your R&D team is divided on which direction to take with product development.",
+        "leftAction": "Focus on improving existing products",
+        "rightAction": "Pivot to entirely new product lines",
+        "metricChanges": {
+          "left": {
+            "PROFIT": 10,
+            "EMPLOYEESATISFACTION": -5,
+            "MARKETSHARE": -10,
+            "BOARDAPPROVAL": 5
+          },
+          "right": {
+            "PROFIT": -10,
+            "EMPLOYEESATISFACTION": 10,
+            "MARKETSHARE": 15,
+            "BOARDAPPROVAL": -5
+          }
+        },
+        "relatedPrinciple": "Product-Market Fit"
+      },
+      {
+        "id": 3,
+        "statement": "Employee morale is dropping due to uncertainty about the company's future.",
+        "leftAction": "Hold town halls to address concerns transparently",
+        "rightAction": "Offer retention bonuses to key employees",
+        "metricChanges": {
+          "left": {
+            "PROFIT": 0,
+            "EMPLOYEESATISFACTION": 15,
+            "MARKETSHARE": 0,
+            "BOARDAPPROVAL": 5
+          },
+          "right": {
+            "PROFIT": -10,
+            "EMPLOYEESATISFACTION": 10,
+            "MARKETSHARE": 0,
+            "BOARDAPPROVAL": -5
+          }
+        },
+        "relatedPrinciple": "Employee Engagement"
+      }
+    ]
+}

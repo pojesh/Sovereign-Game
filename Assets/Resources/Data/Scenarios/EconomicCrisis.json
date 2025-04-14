@@ -1,0 +1,48 @@
+{
+    "scenarioName": "ECONOMIC CRISIS",
+    "description": "The country is facing a severe economic downturn.",
+    "subscenarios": [
+      {
+        "id": 1,
+        "statement": "Economic indicators show a looming recession. Financial experts predict it will be worse than anticipated.",
+        "leftAction": "Implement immediate austerity measures",
+        "rightAction": "Increase government spending to stimulate growth",
+        "metricChanges": {
+          "left": {
+            "ECONOMY": 5,
+            "PUBLICOPINION": -15,
+            "MILITARY": -5,
+            "OPPOSITIONPOWER": 15
+          },
+          "right": {
+            "ECONOMY": -10,
+            "PUBLICOPINION": 10,
+            "MILITARY": 0,
+            "OPPOSITIONPOWER": -5
+          }
+        },
+        "relatedLaw": "Hofstadter's Law"
+      },
+      {
+        "id": 2,
+        "statement": "Bad economic policies are being blamed on incompetence by your administration.",
+        "leftAction": "Accept responsibility and propose reforms",
+        "rightAction": "Blame external global factors",
+        "metricChanges": {
+          "left": {
+            "ECONOMY": 10,
+            "PUBLICOPINION": 5,
+            "MILITARY": 0,
+            "OPPOSITIONPOWER": -10
+          },
+          "right": {
+            "ECONOMY": -5,
+            "PUBLICOPINION": -10,
+            "MILITARY": 0,
+            "OPPOSITIONPOWER": 15
+          }
+        },
+        "relatedLaw": "Hanlon's Razor"
+      }
+    ]
+  }

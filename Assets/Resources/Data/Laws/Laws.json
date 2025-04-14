@@ -1,0 +1,79 @@
+{
+    "laws": [
+      {
+        "name": "Murphy's Law",
+        "description": "Anything that can go wrong will go wrong.",
+        "explanation": "In governance, always prepare for worst-case scenarios and have contingency plans."
+      },
+      {
+        "name": "Pareto Principle",
+        "description": "80% of effects come from 20% of causes (80/20 Rule).",
+        "explanation": "Focus your resources on the most impactful areas to maximize efficiency."
+      },
+      {
+        "name": "Occam's Razor",
+        "description": "The simplest explanation is usually the correct one.",
+        "explanation": "When analyzing complex situations, start with the most straightforward hypothesis."
+      },
+      {
+        "name": "Parkinson's Law",
+        "description": "Work expands to fill the time available for its completion.",
+        "explanation": "Set tight deadlines to prevent bureaucratic inefficiency."
+      },
+      {
+        "name": "Peter Principle",
+        "description": "People in hierarchies rise to their level of incompetence.",
+        "explanation": "Promote based on skills needed for the new position, not just performance in the current role."
+      },
+      {
+        "name": "Hanlon's Razor",
+        "description": "Never attribute to malice what can be adequately explained by incompetence.",
+        "explanation": "When analyzing failures, consider incompetence before conspiracy."
+      },
+      {
+        "name": "Hofstadter's Law",
+        "description": "It always takes longer than you expect, even when you take into account Hofstadter's Law.",
+        "explanation": "Always add buffer time to project timelines, especially for complex governmental initiatives."
+      },
+      {
+        "name": "Law of Diminishing Returns",
+        "description": "After a certain point, additional inputs yield progressively smaller outputs.",
+        "explanation": "Recognize when additional resources will no longer provide proportional benefits."
+      },
+      {
+        "name": "Gresham's Law",
+        "description": "Bad money drives out good money.",
+        "explanation": "In economics, lower quality tends to displace higher quality if they're valued the same."
+      },
+      {
+        "name": "Sturgeon's Law",
+        "description": "90% of everything is crud.",
+        "explanation": "Be highly selective in policy implementation; most ideas won't be excellent."
+      },
+      {
+        "name": "Amara's Law",
+        "description": "We tend to overestimate the effect of a technology in the short run and underestimate it in the long run.",
+        "explanation": "Make technology policies with long-term vision, not just immediate impact."
+      },
+      {
+        "name": "Goodhart's Law",
+        "description": "When a measure becomes a target, it ceases to be a good measure.",
+        "explanation": "Don't let metrics become the goal; they should reflect real progress."
+      },
+      {
+        "name": "Matthew Principle",
+        "description": "The rich get richer and the poor get poorer.",
+        "explanation": "Be aware of how policies might amplify existing inequalities."
+      },
+      {
+        "name": "Moore's Law",
+        "description": "Computing power doubles approximately every two years.",
+        "explanation": "Plan for exponential technological change in long-term policy."
+      },
+      {
+        "name": "Chekhov's Gun",
+        "description": "If you show a gun in the first act, it must be fired by the third.",
+        "explanation": "Every policy introduced should have a purpose and eventual impact."
+      }
+    ]
+  }

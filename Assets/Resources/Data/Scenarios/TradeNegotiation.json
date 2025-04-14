@@ -1,0 +1,69 @@
+{
+    "scenarioName": "TRADE NEGOTIATION",
+    "description": "Your country is negotiating a major trade agreement with several nations.",
+    "subscenarios": [
+      {
+        "id": 1,
+        "statement": "The proposed trade agreement would open your markets but provide access to larger foreign markets.",
+        "leftAction": "Push for more protections for domestic industries",
+        "rightAction": "Embrace free trade principles fully",
+        "metricChanges": {
+          "left": {
+            "FOREIGNRELATIONS": -10,
+            "DOMESTICSUPPORT": 15,
+            "NATIONALSECURITY": 5,
+            "ECONOMICTIES": -5
+          },
+          "right": {
+            "FOREIGNRELATIONS": 15,
+            "DOMESTICSUPPORT": -10,
+            "NATIONALSECURITY": -5,
+            "ECONOMICTIES": 20
+          }
+        },
+        "relatedDoctrine": "Free Trade"
+      },
+      {
+        "id": 2,
+        "statement": "Labor unions are protesting against the trade agreement, fearing job losses.",
+        "leftAction": "Address their concerns with labor protections in the agreement",
+        "rightAction": "Emphasize the long-term economic benefits for all",
+        "metricChanges": {
+          "left": {
+            "FOREIGNRELATIONS": -5,
+            "DOMESTICSUPPORT": 20,
+            "NATIONALSECURITY": 0,
+            "ECONOMICTIES": -10
+          },
+          "right": {
+            "FOREIGNRELATIONS": 10,
+            "DOMESTICSUPPORT": -15,
+            "NATIONALSECURITY": 0,
+            "ECONOMICTIES": 15
+          }
+        },
+        "relatedDoctrine": "Protectionism"
+      },
+      {
+        "id": 3,
+        "statement": "A key negotiating partner is demanding access to sensitive industries in exchange for their market access.",
+        "leftAction": "Refuse access to strategic sectors",
+        "rightAction": "Allow limited access with regulatory oversight",
+        "metricChanges": {
+          "left": {
+            "FOREIGNRELATIONS": -15,
+            "DOMESTICSUPPORT": 10,
+            "NATIONALSECURITY": 15,
+            "ECONOMICTIES": -10
+          },
+          "right": {
+            "FOREIGNRELATIONS": 15,
+            "DOMESTICSUPPORT": -5,
+            "NATIONALSECURITY": -10,
+            "ECONOMICTIES": 20
+          }
+        },
+        "relatedDoctrine": "National Interest"
+      }
+    ]
+}

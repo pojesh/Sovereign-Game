@@ -1,0 +1,44 @@
+{
+    "principles": [
+      {
+        "name": "Profit Maximization",
+        "description": "The primary goal of a business is to maximize profits for shareholders.",
+        "explanation": "While important, focusing solely on profit can lead to short-term thinking and neglect of other stakeholders."
+      },
+      {
+        "name": "Cash Flow Principle",
+        "description": "Cash is king - a business needs positive cash flow to survive.",
+        "explanation": "Even profitable companies can fail if they run out of cash to pay their obligations."
+      },
+      {
+        "name": "Employee Engagement",
+        "description": "Engaged employees are more productive and loyal to the company.",
+        "explanation": "Investing in employee satisfaction can lead to higher retention and productivity."
+      },
+      {
+        "name": "Company Culture",
+        "description": "A strong, positive culture attracts and retains top talent.",
+        "explanation": "Culture is set from the top and influences every aspect of how a company operates."
+      },
+      {
+        "name": "Product-Market Fit",
+        "description": "A product must meet the needs of its target market to succeed.",
+        "explanation": "Without product-market fit, even the best execution will fail."
+      },
+      {
+        "name": "Blue Ocean Strategy",
+        "description": "Create uncontested market space rather than competing in existing markets.",
+        "explanation": "Finding new markets can lead to rapid growth without direct competition."
+      },
+      {
+        "name": "Corporate Governance",
+        "description": "The system of rules and practices by which a company is directed and controlled.",
+        "explanation": "Good governance ensures accountability and alignment between management and shareholders."
+      },
+      {
+        "name": "Leadership Excellence",
+        "description": "Effective leadership inspires and guides the organization toward its goals.",
+        "explanation": "Great leaders create vision, build strong teams, and make tough decisions when needed."
+      }
+    ]
+}

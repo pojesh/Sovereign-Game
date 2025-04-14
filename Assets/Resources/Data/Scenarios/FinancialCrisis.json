@@ -1,0 +1,69 @@
+{
+    "scenarioName": "FINANCIAL CRISIS",
+    "description": "The company is facing severe financial challenges.",
+    "subscenarios": [
+      {
+        "id": 1,
+        "statement": "Quarterly results show a significant drop in revenue. The board is demanding immediate action.",
+        "leftAction": "Implement layoffs to cut costs",
+        "rightAction": "Cut executive compensation and perks",
+        "metricChanges": {
+          "left": {
+            "PROFIT": 15,
+            "EMPLOYEESATISFACTION": -20,
+            "MARKETSHARE": -5,
+            "BOARDAPPROVAL": 10
+          },
+          "right": {
+            "PROFIT": 5,
+            "EMPLOYEESATISFACTION": 15,
+            "MARKETSHARE": 0,
+            "BOARDAPPROVAL": -10
+          }
+        },
+        "relatedPrinciple": "Cash Flow Principle"
+      },
+      {
+        "id": 2,
+        "statement": "Cash reserves are dwindling faster than expected.",
+        "leftAction": "Seek additional investment or loans",
+        "rightAction": "Sell off non-core business assets",
+        "metricChanges": {
+          "left": {
+            "PROFIT": -5,
+            "EMPLOYEESATISFACTION": 0,
+            "MARKETSHARE": 5,
+            "BOARDAPPROVAL": -5
+          },
+          "right": {
+            "PROFIT": 15,
+            "EMPLOYEESATISFACTION": -10,
+            "MARKETSHARE": -10,
+            "BOARDAPPROVAL": 10
+          }
+        },
+        "relatedPrinciple": "Corporate Governance"
+      },
+      {
+        "id": 3,
+        "statement": "Shareholders are demanding a change in strategy to improve profitability.",
+        "leftAction": "Focus on short-term profit maximization",
+        "rightAction": "Commit to long-term growth strategy",
+        "metricChanges": {
+          "left": {
+            "PROFIT": 20,
+            "EMPLOYEESATISFACTION": -10,
+            "MARKETSHARE": -5,
+            "BOARDAPPROVAL": 15
+          },
+          "right": {
+            "PROFIT": -10,
+            "EMPLOYEESATISFACTION": 10,
+            "MARKETSHARE": 15,
+            "BOARDAPPROVAL": -15
+          }
+        },
+        "relatedPrinciple": "Profit Maximization"
+      }
+    ]
+}

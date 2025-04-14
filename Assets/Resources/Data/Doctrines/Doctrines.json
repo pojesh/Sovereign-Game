@@ -1,0 +1,44 @@
+{
+    "doctrines": [
+      {
+        "name": "Multilateralism",
+        "description": "Coordinating diplomatic efforts among multiple countries to address international issues.",
+        "explanation": "Effective when building consensus but can be slow and require compromise."
+      },
+      {
+        "name": "Isolationism",
+        "description": "Minimizing international involvement and focusing on domestic affairs.",
+        "explanation": "Reduces foreign entanglements but can lead to diplomatic isolation and reduced influence."
+      },
+      {
+        "name": "Public Diplomacy",
+        "description": "Engaging directly with foreign populations rather than just governments.",
+        "explanation": "Builds long-term relationships but requires consistent messaging and cultural sensitivity."
+      },
+      {
+        "name": "National Interest",
+        "description": "Prioritizing a country's own strategic goals in diplomatic relations.",
+        "explanation": "Provides clear direction but can appear self-serving to international partners."
+      },
+      {
+        "name": "Balance of Power",
+        "description": "Maintaining stability by preventing any single nation from becoming too powerful.",
+        "explanation": "Historical approach that can prevent dominance but may lead to arms races."
+      },
+      {
+        "name": "Collective Security",
+        "description": "Nations agreeing to defend each other against aggression.",
+        "explanation": "Creates deterrence through unity but requires genuine commitment from all parties."
+      },
+      {
+        "name": "Protectionism",
+        "description": "Restricting international trade to protect domestic industries.",
+        "explanation": "May preserve jobs short-term but often leads to economic inefficiency and retaliation."
+      },
+      {
+        "name": "Free Trade",
+        "description": "Reducing barriers to international commerce and investment.",
+        "explanation": "Promotes economic growth and interdependence but can create winners and losers domestically."
+      }
+    ]
+}

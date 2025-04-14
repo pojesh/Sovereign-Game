@@ -1,0 +1,69 @@
+{
+    "scenarioName": "BORDER DISPUTE",
+    "description": "A neighboring country has made territorial claims on your border region.",
+    "subscenarios": [
+      {
+        "id": 1,
+        "statement": "The neighboring country has deployed military units near the disputed border area.",
+        "leftAction": "Respond with military mobilization",
+        "rightAction": "Propose immediate diplomatic talks",
+        "metricChanges": {
+          "left": {
+            "FOREIGNRELATIONS": -15,
+            "DOMESTICSUPPORT": 10,
+            "NATIONALSECURITY": 5,
+            "ECONOMICTIES": -10
+          },
+          "right": {
+            "FOREIGNRELATIONS": 10,
+            "DOMESTICSUPPORT": -5,
+            "NATIONALSECURITY": -5,
+            "ECONOMICTIES": 5
+          }
+        },
+        "relatedDoctrine": "Balance of Power"
+      },
+      {
+        "id": 2,
+        "statement": "International organizations have offered to mediate the dispute.",
+        "leftAction": "Accept international mediation",
+        "rightAction": "Insist on bilateral negotiations only",
+        "metricChanges": {
+          "left": {
+            "FOREIGNRELATIONS": 15,
+            "DOMESTICSUPPORT": -5,
+            "NATIONALSECURITY": 0,
+            "ECONOMICTIES": 5
+          },
+          "right": {
+            "FOREIGNRELATIONS": -10,
+            "DOMESTICSUPPORT": 10,
+            "NATIONALSECURITY": 5,
+            "ECONOMICTIES": -5
+          }
+        },
+        "relatedDoctrine": "Multilateralism"
+      },
+      {
+        "id": 3,
+        "statement": "Public opinion in both countries is becoming increasingly nationalistic.",
+        "leftAction": "Launch a public information campaign emphasizing peaceful resolution",
+        "rightAction": "Appeal to national pride and historical claims",
+        "metricChanges": {
+          "left": {
+            "FOREIGNRELATIONS": 10,
+            "DOMESTICSUPPORT": -10,
+            "NATIONALSECURITY": 5,
+            "ECONOMICTIES": 10
+          },
+          "right": {
+            "FOREIGNRELATIONS": -15,
+            "DOMESTICSUPPORT": 20,
+            "NATIONALSECURITY": -5,
+            "ECONOMICTIES": -10
+          }
+        },
+        "relatedDoctrine": "Public Diplomacy"
+      }
+    ]
+}

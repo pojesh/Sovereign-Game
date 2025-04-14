@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/RoleSelector.unity
     guid: b7ed0852f489a0a458c2106cf9afa8f4
   - enabled: 1
-    path: Assets/Scenes/MainGameScene.unity
+    path: Assets/Scenes/PM_Game.unity
     guid: d0852514b0683694788af389870c659d
+  - enabled: 1
+    path: Assets/Scenes/CEO_Game.unity
+    guid: 12029818e23ddbc41b0fb1b726a7351f
+  - enabled: 1
+    path: Assets/Scenes/DIP_Game.unity
+    guid: 5d576a84fb5d1944e87853d89ab44325
   m_configObjects: {}

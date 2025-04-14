@@ -1,0 +1,69 @@
+{
+    "scenarioName": "CYBERATTACK",
+    "description": "A major cyber attack has targeted government infrastructure.",
+    "subscenarios": [
+      {
+        "id": 1,
+        "statement": "Intelligence reports indicate a foreign state-sponsored cyber attack on our critical infrastructure.",
+        "leftAction": "Publicly accuse the suspected country",
+        "rightAction": "Investigate quietly and strengthen defenses",
+        "metricChanges": {
+          "left": {
+            "ECONOMY": -10,
+            "PUBLICOPINION": 5,
+            "MILITARY": 0,
+            "OPPOSITIONPOWER": -5
+          },
+          "right": {
+            "ECONOMY": -5,
+            "PUBLICOPINION": -5,
+            "MILITARY": 10,
+            "OPPOSITIONPOWER": 5
+          }
+        },
+        "relatedLaw": "Murphy's Law"
+      },
+      {
+        "id": 2,
+        "statement": "The cyber attack has compromised 20% of our systems but those systems handle 80% of critical operations.",
+        "leftAction": "Focus resources on the compromised 20%",
+        "rightAction": "Distribute resources evenly across all systems",
+        "metricChanges": {
+          "left": {
+            "ECONOMY": 15,
+            "PUBLICOPINION": 10,
+            "MILITARY": 5,
+            "OPPOSITIONPOWER": -10
+          },
+          "right": {
+            "ECONOMY": -5,
+            "PUBLICOPINION": -5,
+            "MILITARY": -10,
+            "OPPOSITIONPOWER": 15
+          }
+        },
+        "relatedLaw": "Pareto Principle"
+      },
+      {
+        "id": 3,
+        "statement": "Multiple theories about the attack source are circulating. The simplest explanation points to a known hacker group.",
+        "leftAction": "Pursue the simplest explanation",
+        "rightAction": "Investigate all possible theories equally",
+        "metricChanges": {
+          "left": {
+            "ECONOMY": 5,
+            "PUBLICOPINION": 10,
+            "MILITARY": 5,
+            "OPPOSITIONPOWER": -5
+          },
+          "right": {
+            "ECONOMY": -10,
+            "PUBLICOPINION": -5,
+            "MILITARY": 0,
+            "OPPOSITIONPOWER": 10
+          }
+        },
+        "relatedLaw": "Occam's Razor"
+      }
+    ]
+  }
